@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/A2Z/Desktop/Blog%20writing.html -->
+<html lang="en" data-mfe="mfe_home"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlogSphere - Blog Writing Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#4e54c8,#8f94fb);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#8f94fb;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:50px 0;
+}
+
+.blog-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.blog-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.blog-card:hover{
+    transform:translateY(-5px);
+}
+
+.blog-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.blog-content{
+    padding:20px;
+}
+
+.blog-content h3{
+    margin-bottom:10px;
+}
+
+.blog-content p{
+    color:#666;
+    line-height:1.6;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#4e54c8;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#3a40a5;
+}
+
+.write-blog{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.write-blog input,
+.write-blog textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.write-blog button{
+    background:#4e54c8;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.write-blog button:hover{
+    background:#3a40a5;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+<script src="./BlogSphere - Blog Writing Website_files/wxoLoader.js"></script><link rel="stylesheet" type="text/css" href="./BlogSphere - Blog Writing Website_files/vendors.e4820aea.css" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="./BlogSphere - Blog Writing Website_files/app.8c2e291c.css" crossorigin="anonymous"></head>
+<body class="wxo-embed-body-temp wxo-float-main float-hidden"><div id="root"><div class="WxOChatTheme cds--g10 cds--layer-one"><div class="WxOChatContainer WxOChatReset WxOChatStyles" style="--wxOChat-USER-MESSAGE-BACKGROUND-color: #e0e0e0; --wxOChat-USER-MESSAGE-BACKGROUND-color-text: #161616; --cds-highlight: #dbe8ff; --cds-background-brand: #0f62fe; --cds-interactive: #0f62fe; --cds-border-interactive: #0f62fe; --cds-button-primary: #0f62fe; --cds-button-tertiary: #0f62fe; --cds-icon-interactive: #0f62fe; --cds-focus: #0f62fe; --cds-button-primary-hover: #0151e4; --cds-button-tertiary-hover: #0151e4; --cds-button-primary-active: #013ba7; --cds-button-tertiary-active: #013ba7; --wxOChat-PRIMARY-color: #0f62fe; --wxOChat-PRIMARY-color-text: #ffffff; --wxOChat-PRIMARY-color-hover: #0151e4; --wxOChat-PRIMARY-color-background-active: #013ba7; --wxOChat-TRANSIENT-NOTIFICATION-background: #ecf2ff; --wxOChat-PRIMARY-color-r: 15; --wxOChat-PRIMARY-color-g: 98; --wxOChat-PRIMARY-color-b: 254;"><div class="cds--content app__main-content-wrapper"><div class="app-routes-wrapper "><div class="WxOChatApp__themeWrapper cds--g10 cds--layer-one"><div class="WxOChatApp__root" dir="ltr" data-testid="wxo-chat-app" style="--wxOChat-scrollbar-width: 17px; --wxo-embed-ai-primary: #0f62fe; --wxo-embed-ai-primary-10: rgba(15, 98, 254, 0.1); --wxo-embed-ai-primary-64: rgba(15, 98, 254, 0.64);"><div class="wxo-float-container WxOChat--hasGradient" dir="ltr"><button class="chatButton"><svg focusable="false" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M22 4 22 6 26.586 6 20 12.586 21.414 14 28 7.414 28 12 30 12 30 4 22 4z"></path><path d="M28,16v4a1.9965,1.9965,0,0,1-2,2H20l-4,7,1.7358,1,3.4288-6H26a3.9992,3.9992,0,0,0,4-4V16Z"></path><path d="M4,20V8A1.9965,1.9965,0,0,1,6,6H18V4H6A3.9986,3.9986,0,0,0,2,8V20a3.9992,3.9992,0,0,0,4,4h9V22H6A1.9965,1.9965,0,0,1,4,20Z"></path></svg></button></div></div></div></div></div><div class="WxOChatVisuallyHidden"><div aria-live="polite" aria-atomic="false"></div><div aria-live="polite" aria-atomic="false"></div></div></div></div></div>
+
+<header>
+    <h1>BlogSphere</h1>
+    <p>Write, Share &amp; Inspire Through Blogging</p>
+</header>
+
+<nav>
+    <a href="file:///C:/Users/A2Z/Desktop/Blog%20writing.html#home">Home</a>
+    <a href="file:///C:/Users/A2Z/Desktop/Blog%20writing.html#blogs">Blogs</a>
+    <a href="file:///C:/Users/A2Z/Desktop/Blog%20writing.html#write">Write Blog</a>
+    <a href="file:///C:/Users/A2Z/Desktop/Blog%20writing.html#contact">Contact</a>
+</nav>
+
+<section class="section container" id="home">
+    <h2>Welcome to BlogSphere</h2>
+    <br>
+    <p>
+        BlogSphere is a platform where writers can share ideas,
+        experiences, technology updates, travel stories, and much more.
+        Start writing and inspire readers worldwide.
+    </p>
+</section>
+
+<section class="section container" id="blogs">
+    <h2>Latest Blogs</h2>
+    <br>
+
+    <div class="blog-grid">
+
+        <div class="blog-card">
+            <img src="./BlogSphere - Blog Writing Website_files/photo-1498050108023-c5249f4df085" alt="Technology">
+            <div class="blog-content">
+                <h3>Future of Web Development</h3>
+                <p>Discover the latest trends in web development, AI integration, and modern frameworks.</p>
+                <a href="file:///C:/Users/A2Z/Desktop/Blog%20writing.html#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="./BlogSphere - Blog Writing Website_files/photo-1500530855697-b586d89ba3ee" alt="Travel">
+            <div class="blog-content">
+                <h3>Travel the World</h3>
+                <p>Explore beautiful destinations and learn travel tips from experienced bloggers.</p>
+                <a href="file:///C:/Users/A2Z/Desktop/Blog%20writing.html#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="./BlogSphere - Blog Writing Website_files/photo-1517248135467-4c7edcad34c4" alt="Lifestyle">
+            <div class="blog-content">
+                <h3>Healthy Lifestyle Habits</h3>
+                <p>Simple habits that can improve your productivity, health, and overall well-being.</p>
+                <a href="file:///C:/Users/A2Z/Desktop/Blog%20writing.html#" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section container" id="write">
+    <h2>Write Your Blog</h2>
+    <br>
+
+    <div class="write-blog">
+        <form>
+            <input type="text" placeholder="Blog Title" required="">
+
+            <input type="text" placeholder="Author Name" required="">
+
+            <textarea rows="8" placeholder="Write your blog here..." required=""></textarea>
+
+            <button type="submit">Publish Blog</button>
+        </form>
+    </div>
+</section>
+
+<section class="section container" id="contact">
+    <h2>Contact Us</h2>
+    <br>
+    <p>Email: blogsphere@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 BlogSphere | All Rights Reserved</p>
+</footer>
+
+
+<script>
+  window.wxOConfiguration = {
+    orchestrationID: "65af6a81da0f4428962849457b352d09_b83e0552-b8f2-426b-ad07-c33848465086",
+    hostURL: "https://au-syd.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:au-syd:a/65af6a81da0f4428962849457b352d09:b83e0552-b8f2-426b-ad07-c33848465086::",
+    chatOptions: {
+        agentId: "8b2effa4-d91b-4240-9b97-05506d7dcb9f", 
+    }
+  };
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+        wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);                     
+</script>
+</body></html>
